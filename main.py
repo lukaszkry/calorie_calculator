@@ -36,6 +36,7 @@ while page_number < 138:    # 137 is number of pages in kalkulatorkalorii.net
             'Fat': fat
         })
     page_number += 1
+
 # Data frame to work with pandas
 df = pd.DataFrame(temp)
 
